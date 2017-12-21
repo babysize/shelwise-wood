@@ -1,0 +1,35 @@
+/* Do not write your code in this file just import what you need */
+
+@import "normalize/normalize.scss";
+
+html, body{
+    height: 100%;
+}
+
+.header{
+    height: 300px;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.footer{
+    margin-top: auto;
+    height: 200px;
+    flex: 0 0 auto;
+    border: solid 1px black;
+    text-align: center;
+    
+}
+
+.main{
+    flex: 1 0 auto;
+    border: solid 1px black;
+    text-align: center;
+    
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
